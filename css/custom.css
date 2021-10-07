@@ -2,4 +2,18 @@
     font-size: 5em; 
     padding: 15px; 
     color: white;
-  }
+}
+
+#clients-logo {
+    margin-left: 26%;
+    width: 80%;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+    #clients-logo {
+        margin-left: 3%;
+        width: 60%;
+        padding: 2px;
+    }
+}
