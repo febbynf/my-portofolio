@@ -10,10 +10,28 @@
     padding: 5px;
 }
 
+#hero-area h2 {
+    text-transform: none;
+}
+
 @media only screen and (max-width: 767px) {
     #clients-logo {
-        margin-left: 3%;
-        width: 60%;
-        padding: 2px;
+        margin-left: 30%;
+        width: 40%;
+        height: auto;
+        padding: 1px;
+    }
+
+    #call-to-action i {
+        font-size: 3em; 
+        padding: 5px; 
+        color: white;
+    }
+
+    iframe {
+        height: 300px;
+        width: 300px;
+        resize: both;
+        overflow: auto;
     }
 }
